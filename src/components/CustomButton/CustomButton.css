@@ -1,0 +1,30 @@
+
+.miboton{
+    padding: 10px 20px;
+    background: #b31270;
+    color: antiquewhite;
+    border-radius: 20px;
+    user-select: none;
+    margin: 10px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 1px 2px 2px 0px #501939;
+}
+.miboton:hover{
+    background: #ebe729;
+    transform: background 0.3s,
+            transdorm 0.2s;
+}
+.miboton:active{
+    background: #727013;
+    transform: scale(0.9);
+}
+.miboton.succes{
+    background: #29d4eb;
+}
+.miboton.succes:hover{
+    background: #29d4eb;
+}
+.miboton.succes:active{
+    background: #29d4eb;
+}
